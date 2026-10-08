@@ -56,25 +56,20 @@ geospatial-file-measurement-api/
 ├── README.md
 └── .gitignore
 
-API Endpoints
+## API Endpoints
 POST /api/files/
 GET  /api/files/{id}/
 GET  /api/files/{id}/measurements/
 
-Live Demo
+## Live Demo
 
-Frontend:
-https://geospatial-file-measurement-api-three.vercel.app/
+- **Frontend:** [Open Live Application](https://geospatial-file-measurement-api-three.vercel.app/)
+- **Backend API:** [Open Backend API](https://geospatial-file-measurement-api-0a3i.onrender.com)
+- **Swagger API Documentation:** [Open Swagger Docs](https://geospatial-file-measurement-api-0a3i.onrender.com/docs)
 
-Backend API:
-https://geospatial-file-measurement-api-0a3i.onrender.com
+## Repository
 
-Swagger API Documentation:
-https://geospatial-file-measurement-api-0a3i.onrender.com/docs
-
-Repository
-
-https://github.com/RETHANYA06/geospatial-file-measurement-api
+[View Source Code on GitHub](https://github.com/RETHANYA06/geospatial-file-measurement-api)
 
 Author
 
