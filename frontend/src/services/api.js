@@ -108,7 +108,7 @@ async function fetchWithFallback(endpoint, options = {}) {
     const response = await fetch(endpoint, options);
     // If not a 404/500 proxy error or HTML response
     const contentType = response.headers.get('content-type') || '';
-    if (response.status < 500 && (contentType.includes('json') || response.status === 400 || response.status === 413 || response.status === 404)) {
+    if (response.status < 500 && (contentType.includes('json') || response.status === 400 || response.status === 413 )) {
       return response;
     }
   } catch {
