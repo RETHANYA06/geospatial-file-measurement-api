@@ -7,7 +7,7 @@
  * - GET  /api/files/{id}/measurements/
  */
 
-const DIRECT_BACKEND_URL = 'http://127.0.0.1:8000';
+const DIRECT_BACKEND_URL = 'https://geospatial-file-measurement-api-0a3i.onrender.com';
 
 /**
  * Parses FastAPI error response details into user-friendly messages
@@ -82,7 +82,7 @@ export async function checkApiHealth() {
 
   // Strategy 3: Check localhost alias
   try {
-    const res = await fetch('http://localhost:8000/', {
+    const res = await fetch('https://geospatial-file-measurement-api-0a3i.onrender.com', {
       method: 'GET',
       headers: { 'Accept': 'application/json' },
     });
